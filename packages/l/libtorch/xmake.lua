@@ -7,6 +7,7 @@ package("libtorch")
     add_urls("https://github.com/pytorch/pytorch.git")
     add_versions("v1.8.0", "37c1f4a7fef115d719104e871d0cf39434aa9d56")
     add_versions("v1.8.1", "56b43f4fec1f76953f15a627694d4bba34588969")
+    add_versions("v1.9.0", "d69c22dd61a2f006dcfe1e3ea8468a3ecaf931aa")
 
     add_configs("python", {description = "Build python interface.", default = false, type = "boolean"})
     add_configs("ninja", {description = "Use ninja as build tool.", default = false, type = "boolean"})
