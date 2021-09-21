@@ -1,6 +1,9 @@
 name: Archlinux
 
 on:
+  push:
+    branches:
+      - master
   pull_request:
     branches:
       - dev
