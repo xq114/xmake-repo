@@ -16,6 +16,8 @@ package("libiconv")
             "d09e4212040f5adf1faa5cf5a9a18f6f79d4cdce9affb05f2e75df2ea3b3d686")
     end
 
+    add_deps("libtool", "autoconf")
+
     on_load(function (package)
         package:addenv("PATH", "bin")
     end)
